@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="places">Places</string>
+    <string name="restauratns">Restaurants</string>
+    <string name="attractions">Attractions</string>
+    <string name="taj_mahal">Taj Mahal</string>
+    <string name="events">Events</string>
+    <string name="explore_india">Explore India</string>
+
+    <string name="place_1">Akshardham</string>
+    <string name="place_1_desc">New Delhi</string>
+    <string name="place_2">Amer Fort</string>
+    <string name="place_2_desc">Jaipur</string>
+    <string name="place_3">Agra Fort</string>
+    <string name="place_3_desc">Agra,New Delhi</string>
+    <string name="place_4">Bangalore Palace</string>
+    <string name="place_4_desc">Bengaluru</string>
+    <string name="place_5">Fort William</string>
+    <string name="place_5_desc">Kolkata</string>
+    <string name="place_6">Mysore Palace</string>
+    <string name="place_6_desc">Mysuru</string>
+    <string name="place_7">Yercaud</string>
+    <string name="place_7_desc">Tamil Nadu</string>
+    <string name="place_8">Golden Triangle</string>
+    <string name="place_8_desc">Delhi</string>
+    <string name="place_9">Golden Temple</string>
+    <string name="place_9_desc">Amritsar, Punjab</string>
+    <string name="let_s_explore">Let\'s Explore</string>
+    <string name="agra">Agra</string>
+    <string name="delhi">3,5 km from Delhi</string>
+    <string name="something">Something</string>
+
+    <string name="hotel_1">1135 AD</string>
+    <string name="hotel_1_place">JAIPUR</string>
+    <string name="hotel_2">1559 AD</string>
+    <string name="hotel_2_place">UDAIPUR</string>
+    <string name="hotel_3">The Park Hotel</string>
+    <string name="hotel_3_place">HYDERBAD</string>
+    <string name="hotel_4">Hotel of MG</string>
+    <string name="hotel_4_place">AGASHIYE, AHMEDABAD</string>
+    <string name="hotel_5">Hotel Amet Haveli</string>
+    <string name="hotel_5_place">AMBRAI, UDAIPUR</string>
+    <string name="hotel_6">Amethyst</string>
+    <string name="hotel_6_place">AMETHYST, CHENNAI</string>
+    <string name="hotel_7">Manu Bahuguna</string>
+    <string name="hotel_7_place">BAWARCHI, HYDERABAD</string>
+
+
+</resources>

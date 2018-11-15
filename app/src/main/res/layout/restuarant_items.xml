@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item"
+    android:padding="@dimen/defaultPadding">
+
+
+    <ImageView
+        android:id="@+id/restaurantImage"
+        android:layout_width="@dimen/list_item_size"
+        android:layout_height="@dimen/list_item_size"
+        android:contentDescription="@string/something"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/restaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/constraint"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/google_sans_bold"
+        android:textSize="@dimen/list_item_placeName"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/restaurantImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/restaurantDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/constraint"
+        android:fontFamily="@font/google_sans"
+        app:layout_constraintStart_toEndOf="@+id/restaurantImage"
+        app:layout_constraintTop_toBottomOf="@+id/restaurantName" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginStart="@dimen/constraint"
+        android:max="5"
+        android:rating="3.5"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/restaurantImage" />
+
+
+</android.support.constraint.ConstraintLayout>
