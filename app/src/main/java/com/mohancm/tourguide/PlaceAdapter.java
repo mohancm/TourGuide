@@ -50,7 +50,6 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.PlaceHolder>
         TextView place_name;
         TextView place_descript;
         ImageView place_image;
-        RatingBar place_rating;
 
         public PlaceHolder(View itemView) {
             super(itemView);
@@ -58,7 +57,6 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.PlaceHolder>
             place_name = itemView.findViewById(R.id.placeName);
             place_descript = itemView.findViewById(R.id.placeDesc);
             place_image = itemView.findViewById(R.id.placeImage);
-            place_rating = itemView.findViewById(R.id.ratingBar);
         }
 
     }
