@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         placesPagerAdapter.add(new PlaceFragment(), getString(R.string.places));
         placesPagerAdapter.add(new RestaurantsFragment(), getString(R.string.restauratns));
         placesPagerAdapter.add(new AttractionsFragment(), getString(R.string.attractions));
+        placesPagerAdapter.add(new EventsFragment(), getString(R.string.events));
 
         viewPager.setAdapter(placesPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentName = new ArrayList<>();
 
-        public PlacesPagerAdapter(FragmentManager fm) {
+        private PlacesPagerAdapter(FragmentManager fm) {
             super(fm);
         }
 
